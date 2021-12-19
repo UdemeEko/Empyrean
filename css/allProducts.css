@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Aara; src:  url("Aara-Bold.otf"); src: url("Aara-Regular.otf")
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    margin: auto;
+    margin-top: 50px;
+    width: 85vw;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/all_products.jpg);
+    background-size: cover;
+    font-family: "Aara-Bold";
+    color: #fff ;
+}
+
+.background>h1 {
+    padding-top: 100px;
+}
+
+.Filter {
+    font-family: "Aara-Regular";
+}
+
+.text-navi {
+    background-color: #000;
+    color: #fff;
+}
+
+.text1 {
+    display: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.trigger1:hover + .text1 {
+    display: block;
+}
+
+.heading-1{
+  position:relative;
+  text-align: center;
+  color: #000;
+  font-family: "Aara-Bold";
+
+}
+
+.card-title{
+    color: #000;
+    margin-bottom: 0px;
+}
+
+a:link {
+    text-decoration-line: none;
+}
+
+.heading-1:before {
+  content: "";
+  display: block;
+  border-top: solid 2px #000;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+}
+.heading-1 span {
+  background: #fff;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.mainT {
+    font-family:  "Aara-Bold";
+}
+
+.submainT {
+    font-family:"Aara-Regular";
+}
+
+.page-link {
+    border-radius: 50%;
+    border: 1px solid #000 !important;
+    color: #000;
+    margin: 10px;
+}
+
+.page-item.active .page-link {
+    background-color: #000;
+}
+
+ .pagination-sm .page-item:last-child .page-link {
+    color: #E0A233;
+    border: none !important;  
+}
+
+.first-link {
+    color: #E0A233 !important;
+    border: none !important;
+}
+
+
+.i-prop {
+    height: 300px;
+    /*max-width: 100%;*/
+}
+
+select {
+    width: 20px;
+    margin: 10px;
+}
+select:focus {
+    min-width: 100px;
+    width: auto;
+}    
+
+body {
+    color: #000;
+}
+
+/*.sub-heading {
+    font-family: ;
+}*/
